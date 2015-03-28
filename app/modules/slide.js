@@ -4,6 +4,7 @@ define([
 function() {
 	var Slide = {};
 
+	// ---------- This is the object containing the screenshot tahen from the viewer
 	Slide.List = Backbone.View.extend({
     	el: "<div>",
 

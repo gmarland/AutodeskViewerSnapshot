@@ -33,17 +33,19 @@ function(Viewer, Slide) {
 		},
 
 		afterRender: function() {
+			// Check if there currently is a viewer
 			if (this._viewer) {
 				this._viewer.destroy();
 				this._viewer = null;
 			}
 
+			// Create the viewer object and attach it to the page
 			this._viewer = new Viewer.Index({ parent: this });
-
 			$("#deck-content-panel").html(this._viewer.el);
 		},
 
 		addImage: function(imageData) {
+			// Create the new slide with the base64 image string taken from the viewer
 			var slide = new Slide.List({ imgSrc: imageData });
 
 			$("#deck-preview-panel").append(slide.el)
