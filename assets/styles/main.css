@@ -1,0 +1,284 @@
+/* global styles */
+
+	html {
+	    margin: 0px;
+	    padding: 0px;
+	    height: 100%;
+	}
+
+	body {
+	    background: #FFFFFF;
+	    margin: 0px;
+	    padding: 0px;
+	    height: 100%;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 15px;
+	}
+
+	.full-content {
+		position: relative;
+		height: 100%;
+		width: 100%;
+	}
+
+    
+/* table classes */
+    
+    .table {
+    	position: relative;
+        display: table;
+    	width: 100%;
+    }
+    
+    .table.full {
+    	height: 100%;
+    }
+    
+    .table-row {
+        display: table-row;
+    }
+    
+    .table-cell {
+    	position: relative;
+        display: table-cell;
+    }
+
+    .table-cell.center {
+	    vertical-align: middle;
+	}
+
+/* Header styles */
+
+	#header-bar {
+		height:30px;
+		background-color: #3B5998;
+		border-bottom: 1px solid 284E9E;
+		z-index: 1002;
+	}
+
+	#header-bar #title {
+		color: #ffffff;
+		font-weight: bold;
+		font-size: 20px;
+		margin-top: 3px;
+		margin-left: 10px;
+	}
+
+	#header-bar #authenticate-container {
+		margin-top: 2px;
+		margin-right: 3px;
+	}
+
+	#header-bar #action-container {
+		margin-top: 2px;
+		margin-right: 3px;
+	}
+
+	#main-body {
+		margin-top: 60px;
+	}
+
+/* utility classes */
+
+	button {
+		padding-top: 4px;
+		padding-bottom: 4px;
+		padding-left: 10px;
+		padding-right: 10px;
+		font-size: 14px;
+		font-weight: bold;
+		color: #444444;
+		border-top: 1px solid #cecece;
+		border-bottom: 1px solid #a0a0a0;
+		border-left: 1px solid #cecece;
+		border-right: 1px solid #cecece;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+		background-color: #FEFEFE;
+		background-image: -moz-linear-gradient(top, #FEFEFE, #F3F3F3);
+		background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#FEFEFE), to(#F3F3F3));
+		background-image: -webkit-linear-gradient(top, #FEFEFE, #F3F3F3);
+		background-image: -o-linear-gradient(top, #FEFEFE, #F3F3F3);
+		background-image: linear-gradient(to bottom, #FEFEFE, #F3F3F3);
+		background-repeat: repeat-x;
+		cursor: hand;
+		cursor: pointer;
+	}
+
+	.selectable {
+		cursor: hand;
+		cursor: pointer;
+	}
+
+	.link {
+    	color: #29ABE2;
+		cursor: hand;
+		cursor: pointer;
+	}
+
+	.left {
+	    position: relative;
+	    float: left;
+	}
+	
+	.right {
+	    position: relative;
+	    float: right;
+	}
+
+
+	.clear {
+	    clear: both;
+	}
+
+	#authenticate-panel {
+		padding: 10px;
+	    background-color: #FDFDFD;
+	    -webkit-box-shadow: 0 1px 4px #bbbbbb;
+	    -moz-box-shadow: 0 1px 4px #bbbbbb;
+	    box-shadow: 0 1px 4px #bbbbbb;
+	    -webkit-border-radius: 3px;
+	    -moz-border-radius: 3px;
+	    border-radius: 3px;
+	}
+
+/* panel classes */
+	
+	.panel-body {
+	    position: relative;
+	    width: 450px;
+	    margin: 0 auto;
+	    background-color: #FFFFFF;
+	    padding-top: 15px;
+	    padding-left: 15px;
+	    padding-right: 15px;
+	    padding-bottom: 7px;
+	    -webkit-border-radius: 3px;
+	    -moz-border-radius: 3px;
+	    border-radius: 3px;
+	    color: #222222;
+	}
+	
+	.panel-body .panel-header {
+	    position: relative;
+	    font-size: 20px;
+	    font-weight: normal;
+	    color: #545454;
+	    padding-bottom: 10px;
+	}
+	
+	.panel-body .panel-intro {
+	    position: relative;
+	    font-size: 14px;
+	    font-weight: normal;
+	    color: #808080;
+	    padding-bottom: 10px;
+	}
+	
+	.panel-body .panel-item {
+	    font-size:15px;
+	    font-weight: normal;
+	    color: #111111;
+	    padding-bottom: 5px
+	}
+
+	.panel-body .panel-error-message {
+	    position: relative;
+	    padding-bottom: 8px;
+	    font-size:14px;
+	    font-weight: bold;
+	    color: #CC0000;
+	}
+	
+	.panel-body .panel-padding {
+	    padding-bottom: 15px;
+	}
+	
+	.panel-body .input-container {
+	    padding-right: 13px;
+	}
+	
+	.panel-item input[type=text] {
+	    width: 100%;
+	    font-size:14px;
+	    font-weight: normal;
+	    color: : #222222;
+	    padding: 5px;
+	    border: 1px solid #b9b9b9;
+	    resize: none;
+	}
+	
+	.panel-item input[type=password] {
+	    width: 100%;
+	    font-size:14px;
+	    font-weight: normal;
+	    color: : #222222;
+	    padding: 5px;
+	    border: 1px solid #b9b9b9;
+	    resize: none;
+	}
+	
+	.panel-item textarea {
+	    width: 100%;
+	    font-size:15px;
+	    font-weight: normal;
+	    color: : #222222;
+	    padding: 5px;
+	    border: 1px solid #b9b9b9;
+	    -webkit-border-radius: 3px;
+	    -moz-border-radius: 3px;
+	    border-radius: 3px;
+	    resize: none;
+	}
+
+/* popout classes */
+
+	.popout {
+		position: absolute;
+		border: 1px solid #8A8A8A;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+		-webkit-box-shadow: 0 1px 4px #ccc;
+		-moz-box-shadow: 0 1px 4px #ccc;
+		box-shadow: 0 1px 4px #ccc;
+		background-color: #fff;
+		z-index: 14;
+	}
+	
+	.settings-menu {
+		width: 150px;
+		position: absolute;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		border: 1px solid #8A8A8A;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+		-webkit-box-shadow: 0 1px 4px #ccc;
+		-moz-box-shadow: 0 1px 4px #ccc;
+		box-shadow: 0 1px 4px #ccc;
+		background-color: #fff;
+		z-index: 9999;
+	}
+
+	.settings-menu > div {
+		position: relative;
+		font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-size: 14px;
+		font-weight: 700;
+		color: #333;
+		background-color: #FFF;
+		text-align: left;
+		padding-top: 3px;
+		padding-bottom: 3px;
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+
+	.settings-menu > div:hover {
+	    cursor: hand;
+	    cursor: pointer;
+	    background-color: #F0F0F0;
+	}

@@ -1,0 +1,62 @@
+.deck-list {
+	max-width: 1000px;
+	min-width: 200px;
+	margin: 0px auto;
+	margin-top: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.deck-list-item {
+	border: 1px solid #cecece;
+	padding: 8px 15px 8px 15px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.deck-list-item .title {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+#deck-preview-panel {
+	position: relative;
+	float: left;
+	height: 100%;
+	width: 160px;
+	padding: 10px;
+	overflow-y: scroll; 
+	background-color: #b8bcc7;
+	background: linear-gradient(#b8bcc7, #9ba3b1);
+}
+
+.slide-list-item {
+	width: 100%;
+}
+
+.slide-list-item img {
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+#deck-content-panel {
+	position: relative;
+	height: 100%;
+	margin-left: 180px;
+	background-color: #b8bcc7;
+	background: linear-gradient(#b8bcc7, #9ba3b1);
+}
+
+#viewer-container {
+	position: relative;
+	width: 800px;
+	height: 600px;
+	margin: 0px auto;
+}
+
+#toolbar {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	z-index: 999;
+}
