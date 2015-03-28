@@ -6,7 +6,7 @@ I wanted to try to create a simple app that loaded the Autodesk Viewer and then 
 
 For this example it creates a deck of slides on the left hand side which could then be used in presentations etc.
 
-## Setting up
+### Setting up
 
 If you want to use this yourself you will need to fill in the following
 
@@ -17,7 +17,7 @@ viewerAPISecret - Your Autodesk viewer API Secret key<br/>
 <b>/app/modules/viewer.js</b><br/>
 _documentId: "urn:" - The URN of the Autodesk model you have previously uploaded into the cloud
 
-## Using the screenshot hack
+### Using the screenshot hack
 
 In order to take a screenshot you should look at the code in /app/modules/viewer.js. 
 
@@ -26,3 +26,7 @@ In order to take a screenshot you should look at the code in /app/modules/viewer
 This keeps the rendering buffer which allows the pulling of the image.
 
 <i>Line 113. that._viewer.canvas.toDataURL("image/png")</i>
+
+### Screenshots
+
+![alt tag](https://raw.githubusercontent.com/gmarland/AutodeskViewerSnapshot/master/example_images/capture-1.PNG)
