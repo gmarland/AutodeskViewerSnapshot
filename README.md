@@ -2,7 +2,7 @@
 
 ## Summary
 
-I wanted to try to create a simple app that loaded the Autodesk Viewer and then captures a PNG image out of whatever is currently in the viewer.
+I wanted to try to create a simple app that loaded the Autodesk Viewer and then captures a PNG image out of whatever is currently in the view frame.
 
 For this example it creates a deck of slides on the left hand side which could then be used in presentations etc.
 
