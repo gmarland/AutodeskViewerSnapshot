@@ -14,7 +14,7 @@ If you want to use this yourself you will need to fill in the following
 viewerAPIKey - Your Autodesk viewer API Key<br/>
 viewerAPISecret - Your Autodesk viewer API Secret key<br/>
 
-<b>/app/modules/viewer.js</b>
+<b>/app/modules/viewer.js</b><br/>
 _documentId: "urn:" - The URN of the Autodesk model you have previously uploaded into the cloud
 
 ## Using the screenshot hack
