@@ -30,3 +30,7 @@ This keeps the rendering buffer which allows the pulling of the image.
 ### Screenshots
 
 ![alt tag](https://raw.githubusercontent.com/gmarland/AutodeskViewerSnapshot/master/example_images/capture-1.PNG)
+
+![alt tag](https://raw.githubusercontent.com/gmarland/AutodeskViewerSnapshot/master/example_images/capture-2.PNG)
+
+![alt tag](https://raw.githubusercontent.com/gmarland/AutodeskViewerSnapshot/master/example_images/capture-3.PNG)
